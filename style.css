@@ -33,8 +33,6 @@ body {
 }
 
 .btn {
-   display: flex;
-   flex-direction: row;
    background-color: transparent;
    border: none;
    outline: none;
@@ -54,13 +52,11 @@ body {
 }
 
 .imgBtn {
-   
    width: var(--size-button);
    height: var(--size-button);
 }
 
 .colorBtn {
-  
    font-size: var(--font-size);
    padding: calc(var(--base-space) * 2);
    border-radius: var(--size-border);
